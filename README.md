@@ -35,7 +35,7 @@ Use 1 category id for Mobile phone and 2 for laptop while add/running the add pr
 
 ### 5. Low Stock Alerts API
 
-- Endpoint: `/inventory/low-stock-alerts`
+- Endpoint: `/inventory/low-stock-alerts/{thrashold}`
 - Functionality: View products with low stock.
   - Input: `threshold` (optional, default is 10)
   - Output: List of products with low stock.
